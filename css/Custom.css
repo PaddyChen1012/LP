@@ -68,10 +68,10 @@ nav img {
     font-weight: bold;
     margin-left: auto;
 }
-.add-user { background: url(images/add-user.png) no-repeat center/contain;}
-.shop { background: url(images/shopping-cart-w.png) no-repeat center/contain;}
-.add { background: url(images/add.png) no-repeat center/contain;}
-.tap { background: url(images/tap-w.png) no-repeat center/contain;}
+.add-user { background: url(../images/add-user.png) no-repeat center/contain;}
+.shop { background: url(../images/shopping-cart-w.png) no-repeat center/contain;}
+.add { background: url(../images/add.png) no-repeat center/contain;}
+.tap { background: url(../images/tap-w.png) no-repeat center/contain;}
 .change-btn {
     color: #fff;
 }
