@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LP</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Custom.css">
+    <link rel="icon" href="images/Sloth-Icon@2x.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/Sloth-Icon@2x.png" type="image/x-icon">
+</head>
+
+<body class="bg-black">
+    
+    <!-- title bar -->
+    <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-black-5 mb-3 custom-nav-color w-100 justify-content-lg-between">
+        <img src="/images/Sloth-Logo-th-W@2x.png" alt="" class="my-1">
+        <div>
+            <a class="navbar-brand" href="" data-toggle="modal" data-target="#AddUser">
+                <i id="" class="icon add-user title"></i>
+                <t class="d-none d-sm-inline-block">SIGN UP</t>
+            </a>
+            <a class="navbar-brand" href="" data-toggle="modal" data-target="#exampleModal">
+                <i id="productNum" class="icon shop title" data-num="0"></i>
+            </a>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid">
+
+        <!-- 第一區商品 -->
+        <h3 class="mt-3 mb-2 text-light">สลอธ สินค้าที่เกี่ยวข้อง</h3>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxxl-2 mb-3">
+                <div class="card rounded-0 bg-dark">
+                    <div class="w-100 img-box" style="background: url(images/Product-01.jpg)no-repeat center/cover;"></div>
+                    <div class="card-body d-flex flex-wrap text-light">
+                        <h5 class="card-title w-100">ตุ๊กตาสลอธจิ๋ว</h5>
+                        <p class="card-text w-50">$110</p>
+                        <p class="card-text w-50 d-flex justify-content-end align-items-end h7">ขายแล้ว 330</p>
+                        <button type="button" name="AddBtn" class="btn btn-secondary mr-auto ">
+                            <i class="icon shop mr-2"></i>
+                            เพิ่มลงรถเข็น
+                        </button>
+                        <button type="button" class="btn btn-secondary ml-auto " data-toggle="modal" data-target="#exampleModal">     
+                            ซื้อเลย
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxxl-2 mb-3">
+                <div class="card rounded-0 bg-dark">
+                    <div class="w-100 img-box" style="background: url(images/Product-02.jpg)no-repeat center/cover;"></div>
+                    <div class="card-body d-flex flex-wrap text-light">
+                        <h5 class="card-title w-100">ตุ๊กตาสลอธจิ๋ว</h5>
+                        <p class="card-text w-50">$49</p>
+                        <p class="card-text w-50 d-flex justify-content-end align-items-end h7">ขายแล้ว 53</p>
+                        <button type="button" name="AddBtn" class="btn btn-secondary mr-auto ">
+                            <i class="icon shop mr-2"></i>
+                            เพิ่มลงรถเข็น
+                        </button>
+                        <button type="button" class="btn btn-secondary ml-auto " data-toggle="modal" data-target="#exampleModal">     
+                            ซื้อเลย
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxxl-2 mb-3">
+                <div class="card rounded-0 bg-dark">
+                    <div class="w-100 img-box" style="background: url(images/Product-03.jpg)no-repeat center/cover;"></div>
+                    <div class="card-body d-flex flex-wrap text-light">
+                        <h5 class="card-title w-100">ตุ๊กตาสลอธจิ๋วเป็นชุด</h5>
+                        <p class="card-text w-50">$349</p>
+                        <p class="card-text w-50 d-flex justify-content-end align-items-end h7">ขายแล้ว 659</p>
+                        <button type="button" name="AddBtn" class="btn btn-secondary mr-auto ">
+                            <i class="icon shop mr-2"></i>
+                            เพิ่มลงรถเข็น
+                        </button>
+                        <button type="button" class="btn btn-secondary ml-auto " data-toggle="modal" data-target="#exampleModal">     
+                            ซื้อเลย
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxxl-2 mb-3">
+                <div class="card rounded-0 bg-dark">
+                    <div class="w-100 img-box" style="background: url(images/Product-04.jpg)no-repeat center/cover;"></div>
+                    <div class="card-body d-flex flex-wrap text-light">
+                        <h5 class="card-title w-100">ที่ใส่กุญแจรูปสลอธ</h5>
+                        <p class="card-text w-50">$89</p>
+                        <p class="card-text w-50 d-flex justify-content-end align-items-end h7">ขายแล้ว 168</p>
+                        <button type="button" name="AddBtn" class="btn btn-secondary mr-auto ">
+                            <i class="icon shop mr-2"></i>
+                            เพิ่มลงรถเข็น
+                        </button>
+                        <button type="button" class="btn btn-secondary ml-auto " data-toggle="modal" data-target="#exampleModal">     
+                            ซื้อเลย
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxxl-2 mb-3">
+                <div class="card rounded-0 bg-dark">
+                    <div class="w-100 img-box" style="background: url(images/Product-05.jpg)no-repeat center/cover;"></div>
+                    <div class="card-body d-flex flex-wrap text-light">
+                        <h5 class="card-title w-100">แผ่นรองแก้วสลอธ</h5>
+                        <p class="card-text w-50">$49</p>
+                        <p class="card-text w-50 d-flex justify-content-end align-items-end h7">ขายแล้ว 220</p>
+                        <button type="button" name="AddBtn" class="btn btn-secondary mr-auto ">
+                            <i class="icon shop mr-2"></i>
+                            เพิ่มลงรถเข็น
+                        </button>
+                        <button type="button" class="btn btn-secondary ml-auto " data-toggle="modal" data-target="#exampleModal">  
+                            ซื้อเลย
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxxl-2 mb-3">
+                <div class="card rounded-0 bg-dark">
+                    <div class="w-100 img-box" style="background: url(images/Product-06.jpg)no-repeat center/cover;"></div>
+                    <div class="card-body d-flex flex-wrap text-light">
+                        <h5 class="card-title w-100">ตุ๊กตาสลอธ</h5>
+                        <p class="card-text w-50">$399</p>
+                        <p class="card-text w-50 d-flex justify-content-end align-items-end h7">ขายแล้ว 1,649</p>
+                        <button type="button" name="AddBtn" class="btn btn-secondary mr-auto ">
+                            <i class="icon shop mr-2"></i>
+                            เพิ่มลงรถเข็น
+                        </button>
+                        <button type="button" class="btn btn-secondary ml-auto " data-toggle="modal" data-target="#exampleModal">     
+                            ซื้อเลย
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 第一區商品 -->
+
+        <!-- 第二區商品 -->
+        <!-- <h2 class="mt-3 mb-3 text-light">足球 周邊</h2>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxxl-2 mb-3">
+                <div class="card rounded-0 bg-dark">
+                    <div class="w-100 img-box">
+                        <img src="/images/Product-02.jpg" class="card-img-top rounded-0" alt="...">
+                    </div>
+                    <div class="card-body d-flex flex-wrap text-light">
+                        <h5 class="card-title w-100">Nike Air Presto x Off- White</h5>
+                        <p class="card-text w-100">£680.95</p>
+                        <button type="button" name="AddBtn" class="btn btn-secondary mr-auto ">
+                            <i class="icon shop mr-2"></i>
+                            เพิ่มลงรถเข็น
+                        </button>
+                        <button type="button" class="btn btn-secondary ml-auto " data-toggle="modal" data-target="#exampleModal">     
+                            ซื้อเลย
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxxl-2 mb-3">
+                <div class="card rounded-0 bg-dark">
+                    <div class="w-100 img-box">
+                        <img src="/images/Product-02.jpg" class="card-img-top rounded-0" alt="...">
+                    </div>
+                    <div class="card-body d-flex flex-wrap text-light">
+                        <h5 class="card-title w-100">Nike Air Presto x Off- White</h5>
+                        <p class="card-text w-100">£680.95</p>
+                        <button type="button" name="AddBtn" class="btn btn-secondary mr-auto ">
+                            <i class="icon shop mr-2"></i>
+                            เพิ่มลงรถเข็น
+                        </button>
+                        <button type="button" class="btn btn-secondary ml-auto " data-toggle="modal" data-target="#exampleModal">     
+                            ซื้อเลย
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxxl-2 mb-3">
+                <div class="card rounded-0 bg-dark">
+                    <div class="w-100 img-box">
+                        <img src="/images/Product-02.jpg" class="card-img-top rounded-0" alt="...">
+                    </div>
+                    <div class="card-body d-flex flex-wrap text-light">
+                        <h5 class="card-title w-100">Nike Air Presto x Off- White</h5>
+                        <p class="card-text w-100">£680.95</p>
+                        <button type="button" name="AddBtn" class="btn btn-secondary mr-auto ">
+                            <i class="icon shop mr-2"></i>
+                            เพิ่มลงรถเข็น
+                        </button>
+                        <button type="button" class="btn btn-secondary ml-auto " data-toggle="modal" data-target="#exampleModal">     
+                            ซื้อเลย
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxxl-2 mb-3">
+                <div class="card rounded-0 bg-dark">
+                    <div class="w-100 img-box">
+                        <img src="/images/Product-02.jpg" class="card-img-top rounded-0" alt="...">
+                    </div>
+                    <div class="card-body d-flex flex-wrap text-light">
+                        <h5 class="card-title w-100">Nike Air Presto x Off- White</h5>
+                        <p class="card-text w-100">£680.95</p>
+                        <button type="button" name="AddBtn" class="btn btn-secondary mr-auto ">
+                            <i class="icon shop mr-2"></i>
+                            เพิ่มลงรถเข็น
+                        </button>
+                        <button type="button" class="btn btn-secondary ml-auto " data-toggle="modal" data-target="#exampleModal">     
+                            ซื้อเลย
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxxl-2 mb-3">
+                <div class="card rounded-0 bg-dark">
+                    <div class="w-100 img-box">
+                        <img src="/images/Product-02.jpg" class="card-img-top rounded-0" alt="...">
+                    </div>
+                    <div class="card-body d-flex flex-wrap text-light">
+                        <h5 class="card-title w-100">Nike Air Presto x Off- White</h5>
+                        <p class="card-text w-100">£680.95</p>
+                        <button type="button" name="AddBtn" class="btn btn-secondary mr-auto ">
+                            <i class="icon shop mr-2"></i>
+                            เพิ่มลงรถเข็น
+                        </button>
+                        <button type="button" class="btn btn-secondary ml-auto " data-toggle="modal" data-target="#exampleModal">     
+                            ซื้อเลย
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxxl-2 mb-3">
+                <div class="card rounded-0 bg-dark">
+                    <div class="w-100 img-box">
+                        <img src="/images/Product-02.jpg" class="card-img-top rounded-0" alt="...">
+                    </div>
+                    <div class="card-body d-flex flex-wrap text-light">
+                        <h5 class="card-title w-100">Nike Air Presto x Off- White</h5>
+                        <p class="card-text w-100">£680.95</p>
+                        <button type="button" name="AddBtn" class="btn btn-secondary mr-auto ">
+                            <i class="icon shop mr-2"></i>
+                            เพิ่มลงรถเข็น
+                        </button>
+                        <button type="button" class="btn btn-secondary ml-auto " data-toggle="modal" data-target="#exampleModal">     
+                            ซื้อเลย
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- 第二區商品 -->
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">สินค้าหมด</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        สามารถติดต่อเราโดยคลิกปุ่มด้านล่างนี้
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary mx-auto">
+                            <a class="change-btn" href="http://www.yahoo.com.tw"><i class="icon tap mr-2"></i>คลิกเลย</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- AddUser -->
+        <div class="modal fade" id="AddUser" tabindex="-1" role="dialog" aria-labelledby="AddUser" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">สมัครสมาชิก</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <form class="px-3 pb-3">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-primary">รหัสผ่านต้องไม่ว่างเปล่า</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script>
+    function navbar() {
+        if (window.pageYOffset > 1) {
+            document.querySelector('#nav').classList.add('moving');
+        } else {
+            document.querySelector('#nav').classList.remove('moving');
+        }
+    }
+    window.addEventListener('scroll', navbar);
+
+    let btnAdd = document.querySelectorAll('[name="AddBtn"]');
+    function add() {
+        let el = document.querySelector('#productNum');
+        data = el.dataset.num;
+        data++;
+        el.setAttribute('data-num', data);
+    }
+    for(let i = 0; i < btnAdd.length ; i++) {
+        btnAdd[i].addEventListener('click', add);
+    }
+
+
+    </script>
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
