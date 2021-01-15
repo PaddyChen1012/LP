@@ -1,6 +1,9 @@
 * {
     user-select: none;
 }
+a {
+    cursor: pointer;
+}
 .navbar {
     position: fixed;
     z-index: 1;
@@ -15,15 +18,18 @@
 .w-45 {
     width: 45%!important;
 }
-.bg-black {
-    background-color: #000;
+.bg-brown {
+    background-color: #aa8976;
 }
-.bg-black-5 {
-    background-color: rgba(255,255,255,0);
-    box-shadow: 0 0 20px #fff inset;
+.bg-brown-5 {
+    background-color: #f0e2d0;
 }
-.moving.bg-black-5 {
-    background-color: rgba(0,0,0,.9);
+.bg-green-5 {
+    background-color: rgba(112, 175, 133, .5);
+    box-shadow: 0 0 20px #c6ebc9 inset;
+}
+.moving.bg-green-5 {
+    background-color: rgba(112, 175, 133, .9);
 }
 .img-box {
     padding-bottom: 100%;
