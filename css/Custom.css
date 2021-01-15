@@ -44,7 +44,7 @@ nav img {
     width: 100px;
 }
 .card:hover {
-    box-shadow: 0 0 30px #fff;
+    box-shadow: 0 0 30px #70af85;
 }
 .icon {
     display: inline-block;
